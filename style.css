@@ -1,0 +1,36 @@
+/*
+Theme Name: Teste Prático
+Theme URI: 
+Description: Teste entrevista.
+Author: Jorge Morgado
+Author URI: http://
+Version: 1.0
+Tags: bootstrap
+
+License: 
+License URI:
+
+@import url('wp-content/themes/novoBootstrap/css/bootstrap.min.css');
+*/
+.resize-list-group {
+    padding:         1px;
+}
+.list-group-horizontal .list-group-item {
+    display: inline-block;
+}
+.list-group-horizontal .list-group-item {
+	margin-bottom: 4px;
+    margin-top: 4px;
+	margin-left:2px;
+	margin-right: 2px;
+    border-radius: 4px;
+    background-color: #428bca;
+}
+.list-group-horizontal .list-group-item:first-child {
+	border-top-right-radius:4px;
+	border-bottom-left-radius:4px;
+}
+.list-group-horizontal .list-group-item:last-child {
+	border-top-right-radius:4px;
+	border-bottom-left-radius:4px;
+}
